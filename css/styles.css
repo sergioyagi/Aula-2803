@@ -5,7 +5,8 @@ body {
 
 
 h1  {
-    color: #172e8b;
+    color: #03050d;
+    text-align: center;
     font-size: 45px;
     font-family: "Boldonse", system-ui;
 }
@@ -28,9 +29,9 @@ ul,ol {
    text-align: center;
 }
 
-.container-blue {background-color: rgb(22, 107, 163);}
-.container-red {background-color: #900;}
-.container-green {background-color: #090;}
+.container-blue {background-color: rgb(62, 142, 179);}
+.container-red {background-color: rgb(183, 56, 56);}
+.container-green {background-color: rgb(77, 218, 131);}
 
 img {
     width: 80%;
@@ -52,22 +53,19 @@ a:hover {
 
 .gradient {
     background-image: linear-gradient(
-      95deg,
-      hsl(240deg 100% 20%) 0%,
-      hsl(238deg 79% 26%) 23%,
-      hsl(235deg 67% 31%) 33%,
-      hsl(233deg 61% 37%) 37%,
-      hsl(230deg 56% 42%) 41%,
-      hsl(228deg 52% 47%) 43%,
-      hsl(226deg 53% 52%) 46%,
-      hsl(224deg 61% 57%) 49%,
-      hsl(227deg 66% 62%) 52%,
-      hsl(238deg 65% 67%) 56%,
-      hsl(250deg 67% 68%) 61%,
-      hsl(263deg 68% 67%) 67%,
-      hsl(274deg 68% 66%) 74%,
-      hsl(286deg 66% 64%) 81%,
-      hsl(297deg 63% 62%) 90%,
-      hsl(308deg 74% 63%) 100%
+      270deg,
+      hsl(240deg 100% 20%) 1%,
+      hsl(319deg 100% 30%) 39%,
+      hsl(346deg 83% 51%) 47%,
+      hsl(30deg 100% 55%) 50%,
+      hsl(55deg 100% 50%) 51%,
+      hsl(69deg 89% 57%) 51%,
+      hsl(90deg 94% 65%) 50%,
+      hsl(122deg 98% 72%) 49%,
+      hsl(157deg 100% 50%) 49%,
+      hsl(180deg 100% 44%) 50%,
+      hsl(197deg 100% 50%) 53%,
+      hsl(210deg 100% 50%) 61%,
+      hsl(241deg 100% 50%) 99%
     );
   }
